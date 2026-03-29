@@ -322,11 +322,12 @@ int main(void) {
     int i;
 
     printf("Enter m: ");
-    scanf("%d", &m);
+    scanf_s("%d", &m);
 
     if (m >= 1) {
-        printf("Padovan sequence: 1 1 1");
-    } else {
+        printf("%d %d %d", p0, p1, p2);
+    }
+    else {
         printf("No numbers\n");
         return 0;
     }
@@ -339,7 +340,8 @@ int main(void) {
             p0 = p1;
             p1 = p2;
             p2 = next;
-        } else {
+        }
+        else {
             break;
         }
     }

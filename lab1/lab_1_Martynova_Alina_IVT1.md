@@ -28,15 +28,15 @@ int main(void) {
     int a, b, sum;
 
     printf("Enter first number: ");
-    scanf("%d", &a);
+    scanf_s("%d", &a);
 
     printf("Enter second number: ");
-    scanf("%d", &b);
+    scanf_s("%d", &b);
 
     sum = a + b;
 
     printf("Sum = %d\n", sum);
-
+    
     return 0;
 }
 ```

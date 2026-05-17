@@ -322,8 +322,14 @@ struct Date {
 int main(void) {
     struct Date date;
 
+    unsigned int day, month, year;
+
     printf("Enter day month year: ");
-    scanf_s("%u %u %u", &date.day, &date.month, &date.year);
+    scanf_s("%u %u %u", &day, &month, &year);
+
+    date.day = day;
+    date.month = month;
+    date.year = year;
 
     printf("Date of birth: %u.%u.%u\n", date.day, date.month, date.year);
 

@@ -1,0 +1,6 @@
+2026-05-01 10:00:01 INFO Application started
+2026-05-01 10:00:05 WARN Slow response from service A
+2026-05-01 10:00:08 INFO Retry succeeded
+2026-05-01 10:00:10 ERROR Cannot open config backup
+2026-05-01 10:00:15 INFO User logged in
+2026-05-01 10:00:20 WARN High memory usage
